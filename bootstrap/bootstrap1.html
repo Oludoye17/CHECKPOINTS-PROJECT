@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fictional Restaurant</title>
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <style>
+      .hero {
+        background: url("https://img.freepik.com/premium-photo/food-background-menu-with-spices-culinary-ingredients-dark-stone-background-cooking-concepts-culinary-background-top-view-free-space-your-text_234595-2347.jpg") no-repeat center center;
+        background-size: cover;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+      }
+
+      .nav-link:hover{
+        color: #134330;
+        background-color: #ffff;
+        border-radius: 5px;
+      }
+
+    .hero-h1{
+        font-size: 70px;
+      }
+      .hero-p{
+        font-size: 30px;
+        letter-spacing: 5px;
+      }
+
+      .card {
+            height: 100%;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+        }
+        .btn {
+            margin-top: auto;
+        }
+
+        html{
+            scroll-behavior: smooth;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="home"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-light" href="#">Eat with Mimi</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-warning fw-bold" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-h1">Welcome to Our Restaurant</h1>
+        <p class="hero-p ">Enjoy Our Delicious Meal</p>
+        <a  id="menu"href="#" class="btn btn-danger p-2">Menu</a>
+      </div>
+    </section>
+
+    <section class="menu py-5">
+      <div class="container">
+        <h2 class="text-center mb-4 text-bg-danger w-25 mx-auto rounded-2 pb-2 text">Our Menu</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <div class=" card text-center rounded-2">
+              <img  src="https://i.ytimg.com/vi/6kVYQbSiiKM/maxresdefault.jpg" class="card-img-top rounded-circle img-thumbnail w-75 m-auto mt-3" alt="Dish 1" />
+              <div class="card-body">
+                <h5 class="card-title">Jollof rice and Turkey</h5>
+                <p class="card-text">The dish is typically made with long-grain rice, tomatoes, chilies, onions, spices, and sometimes other vegetables and/or meat in a single pot, although its ingredients and preparation methods vary across different regions.</p>
+                <p class="card-text fw-semibold">#7,500 per plate</p>
+                <a href="#" class="btn btn-danger">Order now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class=" card text-center rounded-2">
+              <img src="https://www.allrecipes.com/thmb/GGG7anE488mfCzMFijdvL6M0T_M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-165249-baked-beans-from-scratch-VAT-4x3-3f47fbc5e1554dc4b34fa8a567f39dd1.jpg" class="card-img-top rounded-circle img-thumbnail w-75 m-auto mt-3 " alt="Dish 2" />
+              <div class="card-body">
+                <h5 class="card-title">Beans</h5>
+                <p class="card-text">his popular street delicacy is very easy to prepare whether for commercial purposes or for food at home.
+
+                  I will be taking you through the process of making one of Nigeria’s most popular street foods; the Ewa Agoyin also called Ewa Agayin.
+                  
+                  Before we go into the nitty-gritty of cooking the Ewa Agoyin, I would love to give you a list of all the necessary ingredients that are needed.</p>
+                <p class="card-text fw-semibold">#3,500 per plate</p>
+                <a href="#" class="btn btn-danger">Order now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class=" card text-center rounded-2">
+              <img src="https://o3supplies.com/wp-content/uploads/2022/08/Amala-and-Ewedu.jpg" class="card-img-top rounded-circle img-thumbnail w-75 m-auto mt-3" alt="Dish 3" />
+              <div class="card-body">
+                <h5 class="card-title">Amala and Ewedu</h5>Amala is one of the good sources of minerals such as copper, calcium, potassium, iron, manganese, and phosphorus. Amala is good for diabetics since it is made from yam. Yam is a low glycemic index healthy food. Ewedu leaves contains Vitamins A, C and E which protect the body from degenerative diseases.
+                <p class="card-text">Classic Italian pasta tossed in a creamy sauce made with eggs, parmesan, and crispy pancetta. A rich, comforting dish with a hint of black pepper and fresh parsley.</p>
+                <p class="card-text fw-semibold">#4,500 per plate</p>
+                <a href="#" class="btn btn-danger">Order now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class=" card text-center rounded-2">
+              <img src="https://www.foodnify.com/wp-content/uploads/2021/07/boiled-yam-egg-sauce.jpg" class="card-img-top rounded-circle img-thumbnail w-75 m-auto mt-3" alt="Dish 4" />
+              <div class="card-body">
+                <h5 class="card-title">Yam and Egg sauce</h5>
+                <p class="card-text">Boiled yam and egg sauce is very easy to make.  Typically in Nigeria, we use tomatoes, scotch bonnet chilli and onions in making this sauce. Feel free to make this your own, Egg sauce can also be eaten with Agege bread.</p>
+                <p class="card-text fw-semibold">#5000 per plate</p>
+                <a href="#" class="btn btn-danger">Order now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us py-5 bg-light" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img
+              src="https://brandcrunch.com.ng/wp-content/uploads/2021/09/The-Cost-Of-Starting-A-Restaurant-In-Nigeria.png"
+              class="img-fluid img-thumbnail rounded-3 w-75"
+              alt="Restaurant Interior"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>
+                At Eat with Mimi, We believe that food should be both delicious and nutritious. Our mission is to provide customers with wholesome, high-quality ingredients & meals that are not only satisfying but also good for their health.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <h2 class="text-center mb-4 text-bg-danger w-25 mx-auto rounded-2 pb-2">Contact Us</h2>
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger w-25">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>&copy; 2024 Eat with Mini. All Rights Reserved.</p>
+        <div>
+          <a href="#" class="text-white mx-2"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white mx-2"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
